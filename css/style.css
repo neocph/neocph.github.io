@@ -1,0 +1,27 @@
+#page {
+	background-image: url('../img/bg.jpg');
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center center;
+	height: auto;
+	width: auto;
+	position: fixed;
+	top: 5%;
+	bottom: 5%;
+	right: 3%;
+	left: 3%;
+}
+
+#logo {
+	background-image: url('../img/logo.svg');
+	background-size: contain;
+	background-repeat: no-repeat;
+	background-position: center center;
+	width:500px;
+	height:400px;
+	position:absolute;
+	left:50%;
+	top:50%;
+	margin:-170px 0 0 -250px;
+
+}
