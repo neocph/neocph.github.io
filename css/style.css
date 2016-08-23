@@ -97,5 +97,6 @@ a {
 	#message {
 		width: 300px;
 		margin: 0 0 0 -150px;
+		left: 50%;
 	}
 }
