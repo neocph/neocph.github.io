@@ -90,5 +90,11 @@ a {
 	
 	#logo {
 		width: 200px;
+		height: 150px;
+		margin: -75px 0 0 -100px;
+	}
+	
+	#message {
+		padding: 0 5% 5% 0;
 	}
 }
