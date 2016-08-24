@@ -100,7 +100,7 @@ a {
 
 @media only screen and (max-device-width: 480px) {
 	body {
-		font-size: 0.7em;
+		font-size: 1em;
 	}
 	
 	#content {
