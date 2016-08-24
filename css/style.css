@@ -28,14 +28,13 @@ a {
 
 #content {
 	width:700px;
-	height:auto;
+	height:400px;
 	position:absolute;
 	left:50%;
 	top:50%;
 	margin:-170px 0 0 -350px;
 	text-align: center;
 	color: rgba(255, 255, 255, 0.7);
-	padding-bottom: 30px;
 }
 
 #logo {
@@ -101,7 +100,7 @@ a {
 
 @media only screen and (max-device-width: 480px) {
 	body {
-		font-size: 0.6em;
+		font-size: 0.7em;
 	}
 	
 	#content {
@@ -112,7 +111,7 @@ a {
 	#logo {
 		width: 300px;
 		height: 150px;
-		margin: 0 0px 15px 0;
+		margin: 0 0 0 0;
 		top: 35%;
 	}
 	
