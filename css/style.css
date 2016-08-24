@@ -100,12 +100,13 @@ a {
 
 @media only screen and (max-device-width: 480px) {
 	body {
-		font-size: 1em;
+		font-size: 0.9em;
 	}
 	
 	#content {
 		width: 300px;
-		margin: -100px 0px -250px;
+		left: 50%;
+		margin: -100px 0px -150px;
 		}
 	
 	#logo {
