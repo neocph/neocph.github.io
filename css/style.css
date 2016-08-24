@@ -112,7 +112,7 @@ a {
 	#logo {
 		width: 200px;
 		height: 150px;
-		margin: 0 0px 15px -150px;
+		margin: -10% 0px 15px 0;
 		top: 35%;
 	}
 }
