@@ -106,13 +106,13 @@ a {
 	
 	#content {
 		width: 200px;
-		margin: 0;
+		margin:-10% 0px 0px -100px;
 		}
 	
 	#logo {
 		width: 200px;
 		height: 150px;
-		margin: 0;
+		margin: 0 0px 15px -150px;
 		top: 35%;
 	}
 }
