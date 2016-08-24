@@ -38,10 +38,6 @@ a {
 	padding-bottom: 30px;
 }
 
-#content p {
-	
-}
-
 #logo {
 	background-image: url('../img/logo.svg');
 	background-size: contain;
@@ -52,31 +48,22 @@ a {
 	left: 50%;
 }
 #text {
-	margin: -150px 0 0;
+	margin: -160px 0 0;
 }
 
 .link-effect a {
-	color: rgba(255, 255, 255, 0.4);
+	color: rgba(255, 255, 255, 1);
 	font-weight: 400;
 	text-shadow: none;
 	text-decoration: none;
+	-webkit-transition: 0.5s;
+	-moz-transition: 0.5s;
+	-o-transition: 0.5s;
+	transition: 0.5s;
 }
 
-.link-effect a::before {
-	color: #fff;
-	content: attr(data-hover);
-	position: absolute;
-	-webkit-transition: -webkit-transform 0.5s, opacity 0.5s;
-	-moz-transition: -moz-transform 0.5s, opacity 0.5s;
-	transition: transform 0.5s, opacity 0.5s;
-}
-
-.link-effect a:hover::before,
-.link-effect a:focus::before {
-	-webkit-transform: scale(1);
-	-moz-transform: scale(1);
-	transform: scale(1);
-	opacity: 0;
+.link-effect a:hover {
+	color: rgba(255, 255, 255, 0.6);
 }
 
 .menu-link a {
