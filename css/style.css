@@ -78,8 +78,8 @@ a {
 		font-size: 0.6em;
 	}
 	
-	#content {
-		width: 500px;
+	#logo {
+		height: 100px;
 	}
 }
 	
@@ -87,7 +87,7 @@ a {
 	body {
 		font-size: 0.9em;
 	}
-	#content {
-		width: 400px;
+		#logo {
+		height: 100px;
 	}
 }
