@@ -81,13 +81,23 @@ a {
 	#logo {
 		height: 100px;
 	}
+	#content {
+		width: 400px;
+		margin: -75px 0 0 -200px;
+	}
 }
 	
 @media only screen and (max-device-width: 480px) {
 	body {
 		font-size: 0.9em;
 	}
-		#logo {
+	
+	#logo {
 		height: 100px;
+	}
+	
+	#content {
+		width: 400px;
+		margin: -75px 0 0 -200px;
 	}
 }
