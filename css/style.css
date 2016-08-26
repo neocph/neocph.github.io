@@ -77,9 +77,6 @@ a {
 	body {
 		font-size: 0.9em;
 	}
-	#content {
-		margin: -10% 0 0 -35%;
-	}
 }
 	
 @media only screen and (max-device-width: 480px) {
@@ -88,6 +85,6 @@ a {
 	}
 	
 	#content {
-		margin: -15% 0 0 -35%;
+		top: 30%;
 	}
 }
