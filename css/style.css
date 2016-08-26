@@ -77,10 +77,17 @@ a {
 	body {
 		font-size: 0.9em;
 	}
+	#content {
+		margin: -10% 0 0 -35%;
+	}
 }
 	
 @media only screen and (max-device-width: 480px) {
 	body {
 		font-size: 0.7em;
+	}
+	
+	#content {
+		margin: -15% 0 0 -35%;
 	}
 }
