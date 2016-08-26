@@ -73,3 +73,14 @@ a {
 	text-decoration: none;
 }
 
+@media only screen and (max-device-width: 768px) {
+	body {
+		font-size: 0.6em;
+	}
+}
+	
+@media only screen and (max-device-width: 480px) {
+	body {
+		font-size: 0.9em;
+	}
+}
